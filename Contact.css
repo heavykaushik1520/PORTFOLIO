@@ -1,0 +1,209 @@
+
+
+nav{
+    /* position: fixed; */
+    width: 100%;
+    
+    z-index: 99 ;
+
+}
+
+.nav {
+    height: 84px;
+    /* background-color: #a49408; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /*  padding to the left and right */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav .logo{
+    display: inline;
+    width: auto;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    /* background-color: #c1a90c; */
+
+
+}
+
+
+
+nav .logo a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:#c1a90c; 
+    margin-left: 50px;
+    margin-bottom: 25px;
+    /* background-color: aliceblue; */
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .logo a:hover{
+    color: rgb(50, 44, 11);
+    text-shadow: 2px 2px 8px black;
+}
+
+
+
+/* list.....*/
+
+ul{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    color:  rgb(96, 88, 50); 
+    border: 2px solid transparent;
+    font-weight: 600;
+    
+   
+}
+
+ul li a:hover{
+    background-color: rgb(96, 88, 50);
+    color:rgb(255, 255, 145) ;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px  black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    background-color: #ede6a9;
+}
+
+i{
+    color: #d6c84e;
+}
+
+.contact .container {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ede17d;
+    /* box-sizing: border-box; */
+}
+
+.contact .info, .contact .php-email-form {
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+    padding: 30px;
+    height: 100%;
+    overflow: auto;
+}
+
+.contact .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d6c84e;
+    border-radius: 10px;
+}
+
+.contact .php-email-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d6c84e;
+    border-radius: 10px;
+}
+
+.contact .info .bi{
+    color: #494002;
+}
+
+.contact .info .bi:hover{
+    color: white;
+    background-color: #494002;
+
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+iframe{
+    /* padding-left: 20px; */
+    box-shadow: 0 0 1rem #494002;
+    
+}
+
+button{
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color:#756602 ;
+}
+
+button:hover{
+    background-color: #494002   ;
+    box-shadow: 0 3px 5px black;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #050d18;
+}
+
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+}
+
